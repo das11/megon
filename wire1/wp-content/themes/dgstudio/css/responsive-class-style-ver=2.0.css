@@ -1,0 +1,645 @@
+@media screen and (max-width: 1400px) {
+.dgHeader_css h2 {
+    font-size: 3rem !important;
+}
+._HeaderSectionForm .text-box-inner h1 {
+    
+    font-size: 60px;
+}
+.first {
+   
+    background-size: 50% 20% !important;
+}
+.carousel-inner-from .carousel-item h3 {
+    font-size: 30px !important;
+}
+.includeSpecifics-zone .inners {
+    
+    background-size: 30% 20% !important ;
+}
+/*.bannerGrayB_css {
+    width: 44%;
+}*/
+.image_div.right {
+   
+    width: 52%;
+}
+.bannerCoverB_css {
+    width: 70% !important;
+}
+.borderbottom {
+    
+    width: 44% !important;
+}
+.dotbox {
+   right: 10%;
+}
+.get_started_form_slides .form-group .form-control {
+    
+    font-size: 1.5rem;
+}
+.form-textfield-inner .btn {
+    width: 80px !important;
+    height: 80px !important;
+}
+.text-area h1 {
+    font-size: 60px;
+	line-height:100px;
+}
+
+}
+@media screen and (max-width: 1050px) {
+.includeSpecifics-zone .text-area {
+ padding-top: 50px;
+ }
+ .messageDiscription {
+    margin-bottom: 55px;
+ }
+ .service-box{
+	 padding-left:20px !important;
+	 padding-right:20px !important;
+ }
+ .includeSpecifics-zone .text-area p {
+    padding-top: 0px;
+ }
+.dotbox {
+  
+    bottom: 88px;
+	right: 6%;
+}
+.borderbottom {
+   width: 42% !important;
+    bottom: 35%;
+}
+.bannerGrayB_css {
+    width: 42%;
+}
+.dgHeader_css h2 {
+    font-size: 2.5rem !important;
+}
+.ContactArrowIcon {
+   
+    display: none !important;
+}
+.text-area h1 {
+    font-size: 48px;
+}
+.service-title {
+    
+    font-size: 48px !important;
+}
+
+.img-box > img {
+    max-width: 90% !important;
+    
+    width: 100%;
+}
+
+.dotbox > img {
+    max-width: 78% !important;
+    
+    width: 100%;
+}
+.service-zone {
+    padding-top: 0px;
+}
+.includeSpecifics-zone {
+   
+    margin-bottom: 0px;
+}
+._HeaderSectionForm .text-box-inner h1 {
+    
+    font-size: 55px !important;
+	line-height:100px !important;
+}
+.service_left{
+	/* width:100% !important;
+	flex: 0 0 100% !important;
+	max-width:100% !important; */
+}
+.text-box-inner p {
+   
+    font-size: 20px !important;
+}
+.service-img {
+    position: absolute;
+    top: -108px;
+    right: 0;
+}
+.service-img > img {
+    max-width: 60%;
+}
+.service_right{
+	/* padding-top:100px !important;
+	width:100% !important;
+	flex: 0 0 100% !important;
+	max-width:100% !important; */
+}
+div#ServiceZone_ID .container-fluid{
+	padding-right:40px !important; 
+	padding-right:40px !important; 
+}
+}
+@media screen and (max-width: 1023px){
+.text-box-inner p {
+    
+    font-size: 19px !important;
+}
+.dgHeader_css h2 {
+    font-size: 2rem !important;
+}
+.headTitle_css {
+   
+    font-size: 13px !important;
+    letter-spacing: 5px !important;
+}
+}
+@media screen and (max-width: 991px){
+.dotbox {
+    bottom: 200px;
+    right: 3%;
+}
+._HeaderSectionForm .text-box-inner h1 {
+    font-size: 48px !important;
+    line-height: 80px !important;
+    text-align: center;
+}
+.text-box-inner p {
+    font-size: 16px !important;
+    text-align: left;
+}
+.dotbox > img {
+    max-width: 60% !important;
+    width: 100%;
+    margin: 0px auto;
+}
+div#letgotstartSection_ID .img-box {
+ 
+    width: 100% !important;
+}
+.first {
+    background-size: 50% 40% !important;
+}
+div#letgotstartSection_ID .text {
+   
+   top: 0px !important;
+}
+div#letgotstartSection_ID .text-box {
+    padding: 50px 100px !important;
+	
+}
+.img-box > img {
+  max-width: none !important; 
+  width: auto !important;
+}
+.bannerGrayB_css {
+    width: 44% !important;
+    top: -8% !important;
+    left: 12% !important;
+}
+.includeSpecifics-zone .inners {
+  
+    padding: 75px 50px 80px 50px;
+}
+.text-area h1, .text-area p {
+    
+    margin-bottom: 156px;
+}
+.includeSpecifics-zone .text-area {
+    padding-top: 254px !important;
+    max-width: 60% !important;
+}
+.text-area h1 {
+    font-size: 36px !important;
+	line-height:44px;
+}
+.carousel-inner-from .carousel-item h3 {
+    font-size: 22px !important;
+	padding-left:0px !important;
+    margin-bottom: 20px;
+}
+button#btnSlide img {
+    width: 70%;
+}
+.includeSpecifics-zone {
+   width: 98%;
+}
+.text-area p {
+    padding-top: 0px !important;
+}
+.form-textfield-inner .btn {
+    width: 44px !important;
+    height: 44px !important;
+	line-height: 14px !important;
+	margin-top:0px !important;
+}
+#carouselExampleControls .carousel-control-next{
+    height: 55px;
+    top: -5px !important;
+}
+.UL_list {
+    
+    padding-left: 0px;
+}
+.get_started_form_slides .form-group .form-control {
+    font-size: 1rem !important;
+    padding-left: 0px !important;
+}
+.service-box {
+   
+    padding-top: 0px !important;
+}
+.service-box .form-box {
+    padding-top: 100px;
+}
+div[contenteditable] {
+  
+    font-size: 24px;
+}
+.messageDiscription {
+    margin-bottom: 50px;
+    
+}
+.borderbottom {
+   
+    bottom: 46%;
+   
+    left: 12%;
+}
+
+._HeaderSectionForm .text-box {
+    padding: 20px 100px 50px 100px !important;
+}
+div#letgotstartSection_ID .form-section {
+    padding: 40px 40px 0px 40px !important;
+}
+.form-section .form-textfield-inner {
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+}
+div#ServiceZone_ID .form-textfield-inner {
+    width: 100% !important;
+    padding: 0px !important;
+	margin-left: 0px !important;
+}
+.bordertop{
+	display:none !important;
+}
+}
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1300px) {
+.service-box {
+    padding-top: 0px !important;
+    padding-bottom: 0;
+    /* margin-bottom: -172px; */
+}
+.circle_orange_cls {
+    left: 60px;
+}
+.circle_light_green_cls {
+    right: 60px;
+}
+#ServiceZone_ID .form-textfield-inner .btn {
+    bottom: 30px;
+}
+#carouselExampleControls .carousel-control-next{
+    top: 32px !important;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+.text-area h1 {
+    font-size: 20px !important;
+    line-height: 30px;
+}	
+.service-box .form-box {
+    padding-top: 0px;
+}
+.service-box .form-box ul li.flex-item {
+   font-size: 14px !important;
+}
+.text-area p {
+    padding-top: 0px !important;
+    font-size: 14px !important;
+}
+.includeSpecifics-zone ._img.animated.fadeIn.delay-1s {
+    width: 100% !important;
+    max-width: 23% !important;
+    right: -24px !important;
+  }
+div[contenteditable] {
+    font-size: 20px;
+}
+.includeSpecifics-zone .inners {
+    padding: 40px 40px 40px 40px !important;
+}
+.includeSpecifics-zone ._img > img {
+    max-width: 100% !important;
+    max-height: 145px !important;
+}
+.includeSpecifics-zone {
+  width: 100% !important;
+}
+.includeSpecifics-zone {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.text-area h1 {
+    font-size: 20px !important;
+    line-height: 30px;
+}
+.includeSpecifics-zone .text-area {
+    
+    max-width: 90% !important;
+    padding-top: 166px !important;
+}
+.includeSpecifics-zone .container-fluid{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.service-title {
+    font-size: 28px !important;
+    position: relative;
+    top: -25px;
+}
+.service-img > img {
+    max-width: 40% !important;
+    float: right;
+}
+.service_right {
+    padding-top: 0px !important;
+}
+
+.service-box {
+   
+    padding-top: 0px !important;
+}
+div#letgotstartSection_ID .text-box {
+    padding: 50px 15px !important;
+}
+.bannerGrayB_css {
+   height: 65px !important;
+   padding: 20px 18px !important;
+}
+.dgHeader_css h2 {
+    font-size: 1rem !important;
+}
+
+.borderbottom {
+    width: 42% !important;
+   bottom: 47%;
+}
+
+.dgHeader_css .dotbox > img {
+    max-width: 40% !important;
+}
+
+.dgHeader_css .dotbox {
+    bottom: 155px;
+    right: -6%;
+}
+.dgHeader_css .image_div.left img {
+    max-width: 85% !important;
+}
+.dgHeader_css .right img {
+    max-width: 85% !important;
+}
+.bannerGrayB_css {
+    width: 42% !important;
+}
+
+div#logoSection img {
+   
+    max-width: 60%;
+}
+._HeaderSectionForm .text-box-inner h1 {
+    font-size: 34px !important;
+    line-height: 46px !important;
+    
+}
+div#letgotstartSection_ID .img-box {
+    
+    top: -62px;
+}
+div#letgotstartSection_ID .img-box > img {
+    max-width: 95% !important;
+}
+
+div#letgotstartSection_ID .text {
+    top: 0px !important;
+    padding-top: 10px;
+}
+.form-section .form-textfield-inner .btn{
+	width:44px !important;
+	height:44px !important;
+}
+.headTitle_css {
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    text-align: center;
+    left: 0;
+    margin-top: 8px;
+}
+.headTitle_css span {
+    color: #fff;
+}
+.page-template-contact-us .logo img {
+    max-width: 120px;
+}
+div#letgotstartSection_ID ._HeaderSectionForm .text-box {
+    padding: 50px 20px !important;
+}
+._HeaderSectionForm .text-box-inner h1 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: left;
+}
+.page-template-contact-us .logo {
+    /* top: 12%; */
+}
+ul.get_started_form_identifiers li.flex-item {
+    padding: 0px 0px;
+}
+.transparentbgimage-01 {
+    position: relative;
+}
+.page-template-contact-us .form-zone {
+    height: auto;
+}
+.service-zone .service-box {
+    padding-top: 60px!important;
+    padding-bottom: 80px;
+}
+.includeSpecifics-zone .text-area p {
+    text-align: left;
+}
+.text-area .btn {
+    padding: 8px 26px;
+}
+div#ServiceZone_ID .container-fluid {
+    padding-right: 0px !important;
+}
+.price_list_crcle_cls {
+    /* margin-right: 22px; */
+    position: relative;
+    left: -15px;
+}
+#ServiceZone_ID.service-zone ul.flex-container.space-between {
+    width: 90%;
+    height: auto;
+    display: block;
+}
+#ServiceZone_ID.service-zone .service-box .form-box ul li.flex-item {
+    font-size: 16px !important;
+    padding: 5px 5px;
+    display: block;
+    width: auto;
+    text-align: left;
+}
+#ServiceZone_ID.service-zone  ul li.flex-item:last-child{
+    text-align: left;
+}
+.form-textfield{
+    margin-top: 0px;
+}
+ul li.flex-item::before{
+    height: 0px;
+}
+ul li.flex-item.active::before {
+    right: 0px;
+}
+.messageDiscriptionArea[placeholder]:empty:before {
+    font-size: 14px;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .form-zone {
+        height: auto;
+    }
+    div#letgotstartSection_ID .paddng_top_cntct_cls .text-box {
+        padding-top: 200px !important;
+    }
+    .price_list_crcle_cls {
+        margin-top: 140px;
+        padding-bottom: 140px;
+    }
+    .headTitle_css span {
+        color: #fff;
+    }
+    .headTitle_css {
+        margin-top: 20px;
+    }
+    .logo img {
+        max-width: 130px;
+    }
+    .logo {
+        top: 14%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    div#ServiceZone_ID .container-fluid {
+        padding-right: 0px !important;
+    }
+    #ServiceZone_ID ul.flex-container.space-between {
+        width: 92%;
+    }
+
+}
+
+@media screen and (min-width: 1199px) and (max-width: 1600px) {
+    #ServiceZone_ID ul li.flex-item {
+        line-height: 20px;
+        padding-top: 12px;
+    }
+    .transparentbgimage-03 {
+        width: 266px;
+        height: 266px;
+    }
+}
+
+
+@media screen and (max-width: 479px){
+div#logoSection img {
+    max-width: 50%;
+}
+
+.headTitle_css {    
+    letter-spacing: 1px !important;
+    /* text-align: left;
+    padding-left: 20px; */
+}
+
+.dgHeader_css h2 {
+    font-size: 0.8rem !important;
+}
+
+.bannerGrayB_css {
+    height: 45px !important;
+   top: -25% !important;
+}
+
+.borderbottom {
+    
+    bottom: 57%;
+}
+.dgHeader_css .dotbox > img {
+    max-width: 25% !important;
+}
+ul.get_started_form_identifiers li.flex-item {
+    font-size: 15px !important;
+}
+}
+@media screen and (max-width: 414px){
+.dgHeader_css .dotbox {
+    bottom: 230px;
+    right: -8%;
+}
+
+.includeSpecifics-zone ._img.animated.fadeIn.delay-1s {
+   
+    right: -17px !important;
+}
+}
+@media screen and (max-width: 375px){
+.dgHeader_css .dotbox {
+    bottom: 250px;
+    right: -12%;
+}
+.includeSpecifics-zone ._img.animated.fadeIn.delay-1s {
+    right: -9px !important;
+}
+}
+@media screen and (max-width: 320px){
+.dgHeader_css .dotbox > img {
+    max-width: 25% !important;
+}
+.includeSpecifics-zone ._img > img {
+   
+    max-height: 143px !important;
+}
+.dgHeader_css .dotbox {
+    bottom: 270px;
+    right: -19%;
+}
+.dgHeader_css .right img {
+    max-width: 90% !important;
+}
+.dgHeader_css .image_div.left img {
+    max-width: 90% !important;
+}
+}

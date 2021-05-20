@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chev-down-small-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chev-down-small-grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chev-down" transform="translate(6.000000, 9.000000)" fill="#676767" fill-rule="nonzero">
+            <path d="M5.34555735,6.4907861 C5.2935189,6.47058875 5.2449737,6.43969365 5.203439,6.39815895 L0.122755735,1.31747568 C-0.0413381362,1.15338181 -0.0419417822,0.887936721 0.127115785,0.718879156 L0.718879155,0.127115786 C0.885381015,-0.039386074 1.15503983,-0.039680109 1.31747568,0.122755736 L5.5005572,4.3058373 L9.68363875,0.122755736 C9.84773265,-0.041338134 10.1131777,-0.041941779 10.2822353,0.127115786 L10.8739986,0.718879156 C11.0405005,0.885381016 11.0407945,1.15503983 10.8783587,1.31747568 L5.79767545,6.39815895 C5.6758582,6.5199762 5.49818595,6.55169345 5.34555735,6.4907861 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
