@@ -78,9 +78,11 @@ img.emoji {
 <link rel='stylesheet' id='responsive-style-css'  href='wp-content/themes/dgstudio/css/responsive-style-ver=2.1.css' type='text/css' media='all' />
 <link rel='stylesheet' id='responsive-class-style-css'  href='wp-content/themes/dgstudio/css/responsive-class-style-ver=2.0.css' type='text/css' media='all' />
 <link rel='stylesheet' id='cf7cf-style-css'  href='wp-content/plugins/cf7-conditional-fields/style-ver=1.9.7.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.min-ver=3.5.1.js' id='jquery-core-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min-ver=3.3.2.js' id='jquery-migrate-js'></script>
 <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-54572409-4' id='google_gtagjs-js'></script>
+<script type='text/javascript' src='wp-includes/js/home.js'></script>
 <script type='text/javascript' id='google_gtagjs-js-after'>
 window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -298,7 +300,7 @@ gtag('config', 'UA-54572409-4', {"anonymize_ip":true} );
             </div>
         </div>
     </div>
-</div><link href="https://dgstudio.com/wp-content/themes/dgstudio/css/home.css" rel="stylesheet" type="text/css">
+</div><link href="wp-content/themes/dgstudio/css/home.css" rel="stylesheet" type="text/css">
 
 <style>
 /*g.png._setposition{
@@ -315,27 +317,47 @@ html, body{
 <div class="homecls-classname FirstSectio-homePage">
     <div class="holistic-sec mouseovr_elmnt_cls holistic-part" style="height:auto;">
         <div class="container">
-        <div data-10="opacity: 1;" data-20="opacity: 0;" class="globalClass mob_custom_hide" style="font-weight: bold;">WE BUILD BRANDS</div>
-        <div data-10="opacity: 1;" data-20="opacity: 0;" class="globalClass mob_custom_show globl_anim_cls">DIGITAL MARKETING AGENCY</div>
+        <!-- <div data-10="opacity: 1;" data-20="opacity: 0;" class="globalClass mob_custom_hide" style="font-weight: bold;">WE BUILD BRANDS</div> -->
+        <!-- <div data-10="opacity: 1;" data-20="opacity: 0;" class="globalClass mob_custom_show globl_anim_cls">DIGITAL MARKETING AGENCY</div> -->
         <div class="logo-sec">
+
         <div class="container">
-        <div class="logo-part mob_custom_hide">
-        <a data-10="opacity: 1;" data-20="opacity: 0;" href="javascript:void(0);"><img src="logo.svg" alt="Logo"></a> <span data-50="opacity: 1;" data-100="opacity: 0;"></span>
-        </div>
-        <div class="logo-part mob_custom_show logo_prt_anim">
-        <a data-10="opacity: 1;" data-20="opacity: 0;" href="javascript:void(0);"><img src="logo.svg" alt="Logo"></a> <span class="span_lne_anim_cls" data-50="opacity: 1;" data-100="opacity: 0;"></span>
-        </div>
+            <div class="logo-part mob_custom_hide">
+                <span data-50="opacity: 1;" data-100="opacity: 0;"></span>
+                <a data-10="opacity: 1;" data-20="opacity: 0;" href="javascript:void(0);">
+                    <img src="logo.svg" alt="Logo" width="200px">
+                </a> 
+                <span data-50="opacity: 1;" data-100="opacity: 0;"></span>
+            </div>
+            <div class="logo-part mob_custom_show logo_prt_anim">
+            <a data-10="opacity: 1;" data-20="opacity: 0;" href="javascript:void(0);"><img src="logo.svg" alt="Logo"></a> <span class="span_lne_anim_cls" data-50="opacity: 1;" data-100="opacity: 0;"></span>
+            </div>
+            <br>
+
+            <div id="videoDiv2" style="margin-bottom: -220px;"> 
+                <video id="video2" preload="" autoplay="" muted="" playsinline="" loop="">
+                    <source src="site-assets/3.mp4" type="video/mp4">
+                </video> 
+                <!-- <div id="videoMessage2" class="styling">
+                    <h1>Need a website?</h1>
+                    <h2>We're available for</h2>
+                    <h3>HTML projects</h3>
+                    <p class="videoClick">
+                    </p> 
+                </div> -->
+            </div>
+
         </div>
         </div>
         <div class="left mouseovr_elmnt_lft_cls">
         <div class="shwcse_hedng_cls">
              <h3> <b></b></h3>
          <div class="wow fadeInUp" data-wow-delay="1s" data-120="opacity: 1;" data-150="opacity: 0;" class="h2_cls_outer">
-             <div class="h2_cls mob_custom_hide" data-text="A Holistic">A Holistic</div>
-             <div class="h2_cls h2_cls_trnslte_anim h2_cls_anim mob_custom_show" data-text="A Holistic">A Holistic</div>
+             <div class="h2_cls mob_custom_hide" data-text="Where">Where</div>
+             <div class="h2_cls h2_cls_trnslte_anim h2_cls_anim mob_custom_show" data-text="A Holistic">Where</div>
         </div>
-        <span class="wow fadeInUp" data-wow-delay="1.2s">Approach</span>
-        <p class="wow fadeInUp" data-wow-delay="1.4s">FOR YOUR BUSINESS <span> </span><strong></strong></p>
+        <span class="wow fadeInUp" data-wow-delay="1.2s">Innovation</span>
+        <p class="wow fadeInUp" data-wow-delay="1.4s">Meets Excellence<span> </span><strong></strong></p>
         </div>
     
         <!-- <h2>A Holistic<span>Approach</span></h2>
@@ -370,19 +392,20 @@ html, body{
     <div class="HomeBottmTxt-sec mouseovr_elmnt_cls">
       <div class="container">
         <div class="subHeader">
-            <div class="line1">Show the world what your business is made of.</div>
+            <div class="line1">We'll make your brand come alive <br> and walk you that extra mile.</div>
             <!-- <div class="line1">Get online and make an impact on</div>
             <div class="line1">the greatest space of our time: <span>The Internet</span></div> -->
             <div class="subHeaderContent">
-            We customize a company’s online experience through digital masterpieces, powerful online platforms, and storytelling through marketing campaigns across major media channels.            </div>
-            <ul class="subHeaderLogos animated slideInUp">
+                To stand out in today's digital ecosystem, an organisation needs an awe-inspiring brand presence. Megon adds the touch of creativity your brand needs to complement the growth of your company/organisation.           
+            </div>
+            <!-- <ul class="subHeaderLogos animated slideInUp">
                 <li><a href=""><img src="https://dgstudio.com/wp-content/uploads/2020/08/dgicon1.png" alt="icon"><span>branding</span><span class="bottom-span">SERVICES</span></a></li>
                 <li><a href=""><img src="https://dgstudio.com/wp-content/uploads/2020/08/dgicon2.png" alt="icon"><span>digital</span><span class="bottom-span">services </span></a></li>
                 <li><a href="https://dgstudio.com/web-development/"><img src="https://dgstudio.com/wp-content/uploads/2020/08/dgicon3.png" alt="icon"><span>web</span><span class="bottom-span">DEVELOPMENT</span></a></li>
                 <li><a href=""><img src="https://dgstudio.com/wp-content/uploads/2020/08/dgicon4.png" alt="icon"><span>internet</span><span class="bottom-span">MARKETING</span></a></li>
                 <li><a href=""><img src="https://dgstudio.com/wp-content/uploads/2020/08/dgicon5.png" alt="icon"><span>website</span><span class="bottom-span">SUPPORT</span></a></li>
             </ul>
-            <a href="">SCHEDULE A CONSULTATION</a>
+            <a href="">SCHEDULE A CONSULTATION</a> -->
         </div>
       </div>
     </div>
@@ -395,9 +418,10 @@ html, body{
             <div class="left section-inner-box" style="width:100%;">
                                     <div class="animaation_txt_col_cls">
                                     <!-- <div data-splitting class="heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">Define</div> -->
-                                    <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">Define</div>
-                                    <h3 data-wow-delay="1.2s" class="wow fadeInUp"><span>WHAT MAKES YOU UNIQUE</span></h3>
-                                    <p data-wow-delay="1.4s" class="wow fadeInUp">And Create A Trusted Brand </p>
+                                    <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">About Us</div>
+                                    <!-- <h3 data-wow-delay="1.2s" class="wow fadeInUp"><span>Bringing you the right mix of Digital Marketing Strategies that work best for your brand!</span></h3> -->
+                                    <br>
+                                    <p data-wow-delay="1.4s" class="wow fadeInUp">Bringing you the right mix of Digital Marketing Strategies that work best for your brand! </p>
                                     <a data-wow-delay="1.6s" class="wow fadeInUp newBtn" href="">LEARN MORE</a>
                                     <!-- <a class="wow fadeInUp" href="/branding-services/"><div class="home-page-arrows home-page-arrows-new" id="pinkarrwanimDe"></div></a> -->
                                     </div>
@@ -405,7 +429,7 @@ html, body{
                  <div id="defineani"></div> -->
                                                 
                                                 <div class="hme_partcle_anitmn_cls mobile_hide">
-                                                    <h4 class="">BRANDING SERVICES</h4>
+                                                    <!-- <h4 class="">BRANDING SERVICES</h4> -->
                                                     <!-- <div class="new_define_img1 wow bounceInDown" data-wow-delay="0.4s">
                                                         <a target="_blank" href=""><img src="wp-content/themes/dgstudio/images/new_define_img1-min.png" alt="new_define_img"></a>
                                                     </div> -->
@@ -451,16 +475,17 @@ html, body{
             <div class="right section-inner-box" style="width:100%;">
                                     <div class="animaation_txt_col_cls">
                                     <!-- <h4 class="mobileshow-txt">DIGITAL MEDIA</h4> -->
-                                    <div data-wow-delay="1s" class=" wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_left_cls">Energize</div>
-                                    <h3 data-wow-delay="1.2s" class="wow fadeInUp">THROUGH OUR CREATIVE LENSES</h3>
-                                    <p data-wow-delay="1.4s" class="wow fadeInUp">The Power Of Content And Why Your Business Needs It</p>
+                                    <div data-wow-delay="1s" class=" wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_left_cls">Our Services</div>
+                                    <!-- <h3 data-wow-delay="1.2s" class="wow fadeInUp">THROUGH OUR CREATIVE LENSES</h3> -->
+                                    <br>
+                                    <p data-wow-delay="1.4s" class="wow fadeInUp">Believing in creating the bigger things, always!</p>
                                     <a data-wow-delay="1.6s" class="wow fadeInUp newBtn" href="">LEARN MORE</a>
                                     <!-- <a class="wow fadeInUp" href="/digital-media/"><div class="home-page-arrows" id="engerziearrow"></div></a>-->
                                     </div>
                 <!-- <div id="discoverani"></div> -->
                                                 
                                                 <div class="hme_partcle_anitmn_cls mobile_hide">
-                                                    <h4 class="desktopshow-txt">DIGITAL MEDIA</h4>
+                                                    <!-- <h4 class="desktopshow-txt">DIGITAL MEDIA</h4> -->
                                                     <!-- <div class="new_energize_img1 wow bounceInUp" data-wow-delay="0.4s">
                                                     <a target="_blank" href=""><img src="wp-content/themes/dgstudio/images/new_energize_img1-min.png" alt="new_energize_img"></a>
                                                     </div> -->
@@ -506,16 +531,17 @@ html, body{
             <div class="left section-inner-box" style="width:100%;">
                 <!-- <div class="dt_anmtn_strp_cls"><img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/showcse_right.svg" alt="dotted square"></div> -->
                                         <div class="animaation_txt_col_cls">
-                                        <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">Build</div>
-                                         <p data-wow-delay="1.2s" class="wow fadeInUp">WITH US AND BREAK NEW GROUND</p>
-                                        <h3 data-wow-delay="1.4s" class="wow fadeInUp">Using Optimized Web Design And Web Development For Conversion</h3>
+                                        <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">Our Work Profile</div>
+                                         <!-- <p data-wow-delay="1.2s" class="wow fadeInUp">WITH US AND BREAK NEW GROUND</p> -->
+                                         <br>
+                                        <h3 data-wow-delay="1.4s" class="wow fadeInUp">Creating a positive digital media impact in the world of competitive positioning!</h3>
                                         <a data-wow-delay="1.6s" class="wow fadeInUp newBtn" href="https://dgstudio.com/web-development/">LEARN MORE</a>
                                         <!-- <a class="wow fadeInUp" href="/web-development/"><div class="home-page-arrows" id="bluearrwanimexplr"></div></a> -->
                                         </div>
                 <!-- <div id="exploreani"></div> -->
                                                 
                                                 <div class="hme_partcle_anitmn_cls mobile_hide">
-                                                    <h4>WEB DEVELOPMENT</h4>
+                                                    <!-- <h4>WEB DEVELOPMENT</h4> -->
                                                     <div class="new_build_img1 wow bounceInUp" data-wow-delay="0.8s">
                                                         <img src="wp-content/themes/dgstudio/images/new_build_img1-min.png" alt="new_build_img">
                                                     </div>
@@ -549,287 +575,144 @@ html, body{
     </div>
                                                 
 </div>
-                                                
-<div class="homecls-classname venturesecfeatures" id="venturesecfeatures">
-<!-- <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotVparrwanim"></div></a> </div> -->
-    <div class="venture-sec mouseovr_elmnt_cls">
-        <div class="container">
-            <div class="right section-inner-box" style="width:100%;">
-                <!-- <div class="dt_anmtn_strp_cls"><img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/red_strp_dt.svg" alt="dotted square"></div> -->
-                                        <div class="animaation_txt_col_cls">
-                                        <!-- <h4 class="mobileshow-txt">INTERNET MARKETING</h4> -->
-                                        <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_left_cls">Venture</div>
-                                        <h3 data-wow-delay="1.2s" class="wow fadeInUp">WITH US THROUGH THE WWW</h3>
-                                        <p data-wow-delay="1.4s" class="wow fadeInUp">Using SEO And A 360° Digital Marketing Strategy</p>
-                                        <a data-wow-delay="1.6s" class="wow fadeInUp newBtn" href="">LEARN MORE</a>
-                                        <!-- <a class="wow fadeInUp" href="/internet-marketing/"><div class="home-page-arrows" id="pinkarrwanimventr"></div></a> -->
-                                        </div>
-                <!-- <div id="ventureani"></div> -->
-                                                
-                                                <div class="hme_partcle_anitmn_cls mobile_hide">
-                                                    <h4 class="desktopshow-txt">INTERNET MARKETING</h4>
-                                                    <div class="new_venture_img1 wow bounceInUp" data-wow-delay="0.8s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img1-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <!-- <div class="new_venture_img2 wow bounceInUp" data-wow-delay="0.4s">
-                                                    <a target="_blank" href=""> <img src="wp-content/themes/dgstudio/images/new_venture_img2-min.png" alt="new_venture_img"></a>
-                                                    </div> -->
-                                                    <div class="new_venture_img3 wow bounceInDown" data-wow-delay="1.2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img3-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <div class="new_venture_img4 wow fadeInLeft" data-wow-delay="1.6s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img4-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <div class="new_venture_img5 wow fadeInRight" data-wow-delay="2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img5-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <div class="new_venture_img6 wow jackInTheBox" data-wow-delay="2.4s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img6-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <div class="new_venture_img7 wow fadeInRight" data-wow-delay="2.8s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img7-min.png" alt="new_venture_img">
-                                                    </div>
-                                                    <div class="new_venture_img8 wow bounceInUp" data-wow-delay="3.2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_venture_img8-min.png" alt="new_venture_img">
-                                                    </div>
-                                                </div>
-                                                <div class="hme_partcle_anitmn_cls mobile_show">
-                                                  <h4 class="desktopshow-txt">INTERNET MARKETING</h4>
-                                                    <img src="https://dgstudio.com/wp-content/uploads/2020/05/hype_updated2.png">
-                                                </div>
-                                                
-                <!-- <img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/venture.png" alt="Venture">
-                <div class="venture-shapes"><img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/venture-shapes.png" alt="Shapes"></div> -->
-            </div>
-        </div>
-    </div>
-                                                
-</div>
-                                                
-<div class="homecls-classname protectsecfeatures" id="protectsecfeatures">
-<!-- <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotPparrwanim"></div></a> </div> -->
-    <div class="protect-sec mouseovr_elmnt_cls">
-        <div class="container">
-            <div class="left section-inner-box" style="width:100%;">
-                <!-- <div class="dt_anmtn_strp_cls"><img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/lght_grn_dt.svg" alt="dotted square"></div> -->
-                                        <div class="animaation_txt_col_cls">
-                                        <div data-wow-delay="1s" class="wow fadeInUp heding_anim_cls spliting_txt_postn_cls cmmn_split_txt_cls">Protect</div>
-                                        <h3 data-wow-delay="1.2s" class="wow fadeInUp"><span>WITH US, WE’LL TAKE CARE OF THE HEAVY LIFTING</span></h3>
-                                        <p data-wow-delay="1.2s" class="wow fadeInUp">Through Website Hosting And Support</p>
-                                        <a data-wow-delay="1.6s" class="wow fadeInUp newBtn" href="">LEARN MORE</a>
-                                        <!-- <a class="wow fadeInUp" href="/website-support/"><div class="home-page-arrows" id="greenarrwanimprctct"></div></a> -->
-                                        </div>
-                <!-- <div id="protectani"></div> -->
-                                                
-                                                <div class="hme_partcle_anitmn_cls mobile_hide">
-                                                    <h4 class="desktopshow-txt">WEBSITE SUPPORT</h4>
-                                                    <div class="new_protect_img1 wow bounceInDown" data-wow-delay="0.8s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img1-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <!-- <div class="new_protect_img2 wow bounceInDown" data-wow-delay="0.4s">
-                                                    <a target="_blank" href=""><img src="wp-content/themes/dgstudio/images/new_protect_img2-min.png" alt="new_protect_img"></a>
-                                                    </div> -->
-                                                    <div class="new_protect_img3 wow fadeInRight" data-wow-delay="1.2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img3-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <div class="new_protect_img4 wow fadeInLeft" data-wow-delay="1.6s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img4-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <div class="new_protect_img5 wow bounceInUp" data-wow-delay="2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img5-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <div class="new_protect_img6 wow fadeInLeft" data-wow-delay="2.4s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img6-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <div class="new_protect_img7 wow bounceInUp" data-wow-delay="2.8s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img7-min.png" alt="new_protect_img">
-                                                    </div>
-                                                    <div class="new_protect_img8 wow jackInTheBox" data-wow-delay="3.2s">
-                                                        <img src="wp-content/themes/dgstudio/images/new_protect_img8-min.png" alt="new_protect_img">
-                                                    </div>
-                                                </div>
-                                                <div class="hme_partcle_anitmn_cls mobile_show">
-                                                   <h4 class="desktopshow-txt">WEBSITE SUPPORT</h4>
-                                                    <img src="https://dgstudio.com/wp-content/uploads/2020/05/support_updated1.png">
-                                                </div>
-                                                
-                <!-- <img src="https://www.dgstudio.com/wp-content/themes/dgstudio/images/protect.png" alt="Protect"> -->
-            </div>
-        </div>
-    </div>
-</div>
+           
 
-<!-- <div class="homecls-classname testimonialhmsecfeatures" data-section-name="testimonialhmsecfeatures">
+
+<div class="homecls-classname testimonialhmsecfeatures" data-section-name="testimonialhmsecfeatures">
 <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotTparrwanim"></div></a> </div>
     <div class="testimonal-zone">
         <div class="container">
             <h3>TESTIMONIALS</h3>
-            <div class="slider">
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"They were very knowledgeable about their work! We have gained imperative insight from their guidance. We came to them with a general concept, and they knew exactly what to do to guide us to discover what it was about, to develop a strategy based on certain facts we provided to increase our success through development, implementation, and continuous market analysis. They also followed up to ensure we were keeping on point to achieve the results we ultimately wanted to achieve. They are exceptional!"</p>
-									<span>Kabir Das</span>
-									<b><small>Team Smith Real Estate</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"We have four restaurants and don't have a lot of time to invest in developing our marketing and website. We needed to revamp these areas and DG Studio did a great job of taking charge for us. They are very methodical and communicative so we were able to get exactly what we wanted. Now that we're set up on their platform our search rankings and website traffic have gone up every week so far and we're extremely happy."</p>
-									<span>Kabir Das</span>
-									<b><small>Thai Ginger Restaurants</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"My company and I met them in Cali! An have worked with them since! Always have been on top of everything. And the best thing about them is their culture. An the way on each task they have with their clients they deliver in such a great way! Even dive into the clients companies culture and become one with the team! Wouldn't change this team or trade them in for the world!"</p>
-									<span>Kabir Das</span>
-									<b><small>Co-Founder<br />
-Sworn Creed</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"Working with Angelica has been awesome!"</p>
-									<span>Kabir Dasspan>
-									<b><small>Arrow Montessori</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"We really like the website and we think that it is a beautiful website. They're constantly improving the website often to make it look more inviting."</p>
-									<span>Kabir Das</span>
-									<b><small>Executive Director<br />
-Arrow Montessori</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"Everyone was friendly. I gave DG studio a deadline for my project and they finished before the deadline. My wireframe and powerpoint turned out really nice. I will use DG studio for future projects."</p>
-									<span>Kabir Das Orana Brooks</span>
-									<b><small></small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"DG Studio did a perfect job creating my website. They incorporated my ideas as well as helped educate me to what would make my website most attractive as well as functional. They were very flexible and patient, knowledgeable, resourceful and a pleasure to deal with. I highly recommend them as I couldn't be more pleased with their services and results."</p>
-									<span>Kabir Das</span>
-									<b><small>Myers-Briggs Master Practitioner</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"I ended up with a great website. The process was a bit rocky in the beginning and then they made a staffing change that made all the difference. Instead of forcing my business into their picture of what it should be, the new team listened to my goals and made the site work to attract those clients. It made all the difference."</p>
-									<span>Kabir Das</span>
-									<b><small>New Paradigm Shift</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"Over the past month, they have been helping my company develop our new website, and their service is over the top. They have been extremely responsive and helpful with any question, providing intelligent advice and insight on how to position and market our product. Their customer service is great and I would highly recommend them."</p>
-									<span>Kabir Das&#8217;Arezzo</span>
-									<b><small>Admin Executive Secretary<br />
-Wiseman & Burke</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"They are absolutely amazing. The team only strives to make you happy and works with you and what you want on your website, logo, and branding. I couldn't have gotten any luckier with finding DG Studio. I know I will be going to them for any of my marketing, branding, website and everything they else do connected with my website with them! They go the extra mile to make you happy no matter what! I recommend them to everyone who wants to do the job right the first time around!"</p>
-									<span>Kabir Das</span>
-									<b><small>Founder<br />
-ClariTeas.com</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"The team I worked with exercised patience and were extremely professional. They listened to what I wanted to accomplish and accomplished it with great ease."</p>
-									<span>Kabir Das</span>
-									<b><small>Kingdom Application Ministries</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"I will go ahead and tell you that I am not an easy man to please. I usually have strict deadlines and have outrageous demands to keep up with. DG Studio’s ENTIRE team was nothing short of incredible. Every single team member knew their role, had the answer or put me in contact with someone who knew the answer. DG Studio really took the time to tend to my needs in order to make this partnership work. I stand by their work 100% and recommend any company looking for a starting point to start with this team."</p>
-									<span>Kabir Das</span>
-									<b><small>Co-Founder<br />
-5Strands Affordable Testing</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"Great team and good results! If you're looking to start a new website from scratch or upgrade your already existing website they’re professional and knowledgeable about their work."</p>
-									<span>Kabir Das</span>
-									<b><small>LVN, Esthetician & Office Manager<br />
-LAMC Cosmetic Surgery Center</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"It’s always been a pleasurable experience. Very knowledgeable, very experienced, very fast turn around times and open lines of communication. The DG team has always been accessible to me."</p>
-									<span>Kabir Das</span>
-									<b><small>The Lake on Wilshire</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"To DG Studio’s Team, on behalf of the Artomatic Board, we want to greatly thank you for your hard work and effort to make last nights Artomatic Planning Event with the development of what we have present for the website and the movie introducing the website was amazing. Thank you for re-branding and bringing the Artomatic Website into present day. We greatly thank your innovation and your team to making it happen. The artists and volunteers who came out last night were excited with the new look and feel from your movie demo of the website. A pleasure as a Software Development Professional to work with you on this project."</p>
-									<span>Kabir Das</span>
-									<b><small>Board Director (IT/Web Committee)<br />
-Artomatic</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"I have been involved with the Sri Lanka Foundation for many years, since DG Studio took over designing the marketing materials and other publications it shows high quality. The SLF Website has achieved the highest recognition in our community. The staff are very courteous, professional and accommodating."</p>
-									<span>Kabir Das</span>
-									<b><small>Director of Public Relations & Programming<br />
-Sri Lanka Foundation International</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"I first used another website developer out of Boston four years ago, and while the site looked OK it wasn't converting. Then I ran into marketers at a booth while attending a conference in San Diego, and they really impressed me with their follow up. They weren't too pushy and I sensed their commitment and confidence in helping me upgrade my website. It was a complex journey and they covered every detail I wanted to see changed. The site is beautiful, and lets viewers easily see what I am about as an expert in my field - ready, willing, and able to help those in need of my quality information on how teach themselves or their kids to swim starting at home without a pool. They are a great team; detail oriented, and great listeners so they can suggest ways to accomplish what I wanted efficiently. Sort of like how I teach swimming to help save more lives. Their marketing team suggested ways using my extensive video content to improve my social media presence I never thought of doing so I can get higher on the Internet search pages and be found. Fantastic! I highly recommend this very affordable team to improve your ROI."</p>
-									<span>Kabir Das</span>
-									<b><small>Founder<br />
-Learn How To Swim Program</small></b>
-								</div>
-							</div>
-							
-							<div>
-								<div class="testicnwidth">
-									<p>"I was seated at my desk this morning and happened to glance at the souvenir for the Rangabhisheka 2017 cultural show. I have been involved in designing and arranging many souvenirs for the SLAASC and other organizations. I have also seen the hard work of many of our Sri Lankan organizations and Colleges who put out souvenirs for their functions. I do realize that it takes a lot of time and effort to put these souvenirs together. I feel I must CONGRATULATE the Sri Lanka Foundation and your graphic department DG Studio for their production of this Souvenir. I feel it is the best, by any standards, that I have ever seen. It is a MASTERPIECE! Obviously they went through a lot in making it perfect. Every ad has meaning and stands out. You have set a standard for other organizations, who will find it extremely difficult to meet with. Thanks also to those involved in putting together the ad for “Good News From Jayam”. It was excellent and I have received a good response from the ad. Keep up the good work. My compliments to DG Studio."</p>
-									<span>Kabir Das</span>
-									<b><small>Creator of Good News by Jayam</small></b>
-								</div>
-							</div>
-				
-            </div>
-            <div class="cse_study_btn_cls">
-                <a href="">View Case Studies
-                <div id="casestdybtnarrw"></div></a>
+            <div class="space-medium">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
+                            <!-- section-title -->
+                            <div class="section-title">
+                                <h2 style="text-align: center;">What our Clients says</h2>
+                                <!-- <p>Quisque tempus justo molestie lacus blandit, eget molestie eros tristique. Nulla facilisi. Maecenas mollis ultricies faucibus.</p> -->
+                            </div>
+                        </div>
+                        <!-- /.section-title -->
+                    </div>
+                    <div class="row">
+                        <!-- video-testimonail -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="video-testimonial-block">
+                                <div class="video-thumbnail"><img src="https://easetemplate.com/free-website-templates/finvisor/images/testi_img_1.jpg" alt="" class="img-fluid"></div>
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <a href="#" class="video-play"></a>
+                            </div>
+                            <div class="video-testimonial-content">
+                                <h4 class="mb10">Kabir Das</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </div>
+                        <!-- /.video-testimonail -->
+                        <!-- video-testimonail -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="video-testimonial-block">
+                                <div class="video-thumbnail"><img src="https://easetemplate.com/free-website-templates/finvisor/images/testi_img_2.jpg" alt="" class="img-fluid"></div>
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" 
+                                     allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <a href="#" class="video-play"></a>
+                            </div>
+                            <div class="video-testimonial-content">
+                                <h4 class="mb10">Alisha A. Delapaz</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </div>
+                        <!-- /.video-testimonail -->
+                        <!-- video-testimonail -->
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="video-testimonial-block">
+                                <div class="video-thumbnail"><img src="https://easetemplate.com/free-website-templates/finvisor/images/testi_img_3.jpg" alt="" class="img-fluid"></div>
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/KEiAVv1UNac" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <a href="#" class="video-play"></a>
+                            </div>
+                            <div class="video-testimonial-content">
+                                <h4 class="mb10">Rebecca L. Jenkins</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </div>
+                        <!-- /.video-testimonail -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div> -->
+</div>
+
 
 <div class="homecls-classname sitelogosecfeatures" data-section-name="sitelogosecfeatures">
-<!-- <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotpSLarrwanim"></div></a> </div> -->
+    <!-- <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotpSLarrwanim"></div></a> </div> -->
+        <div class="site_logo_img_cls">
+            <div class="container-fluid">
+                <h3>OUR CLIENTS </h3>
+                <div id="timeline-content" class="timeline-body">
+                    <!-- <h1 class="timeline-h1">Timeline</h1> -->
+                  
+                    <ul class="timeline">
+                      <li class="event" data-date="2013">
+                        <h4 class="timeline-h3">Impact media, LBS Tourism Pvt LTD, Koyeli North East India, Subham- unit of Lohia Group, Asomiya Pratidin</h4>
+                        <p class="timeline-p">Some extra text🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2014">
+                        <h4 class="timeline-h3">Lynchpin, Khadin,Nandini, Assam Down Town University, The Sentinel</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2015">
+                        <h4 class="timeline-h3">Dainik Janambhumi, Govt of Assam, Axel Public School, Canecraft and Allied Industries, Acsentials</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2016">
+                        <h4 class="timeline-h3">University of Science and Technology Meghalaya, My Taxi, Isle natura, DDMA, SKR</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2017">
+                        <h4 class="timeline-h3">Unicef,Growing Buds, HSMM Group Of Industries, NRC</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2018">
+                        <h4 class="timeline-h3">Assam Police, Hayat Hospital, Roodraksh</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2019">
+                        <h4 class="timeline-h3">Hotel Gateway Grandeur, Aero Fitness, SITM, (Scholar’s Institute Of technology and management), Cozy Travels, Satyam</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      <li class="event" data-date="2020">
+                        <h4 class="timeline-h3">Assam Tribune, Office of DC Amingaon, Office of Chief Secretary, Bonvilla Resort.</h4>
+                        <p class="timeline-p">Some extra text 🐢🦂</p>
+                      </li>
+                      
+                      <li class="event" data-date="2021">
+                        <h4 class="timeline-h3">Megon Today</h4>  
+                        <p class="timeline-p">"Creating a positive digital media impact in the world of competitive positioning!" 📣</p> 
+                      </li>
+
+                    </ul>
+
+                    <br><br><br>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- <div class="homecls-classname sitelogosecfeatures" data-section-name="sitelogosecfeatures">
+ <div class="backtotp_arrw_cls"><a href="javascript:void(0);"><span>Go Back Up</span> <div id="backtotpSLarrwanim"></div></a> </div>
     <div class="site_logo_img_cls">
         <div class="container-fluid">
             <h3>OUR CLIENTS </h3>
@@ -964,13 +847,13 @@ Learn How To Swim Program</small></b>
 						<img src="https://dgstudio.com/wp-content/uploads/2020/03/DG-Site-Client-LogoTL.png" alt="img_sitelogo">
 					</div>
 				            </div>
-            <!-- <div class="client_logo_btn_cls">
+            <div class="client_logo_btn_cls">
                 <a href="">View Portfolio
                 <div id="clientlogobtnarrw"></div></a>
-            </div> -->
+            </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Industry Section Starts -->
 <!-- <div class="homecls-classname our-clients-by-industry" data-section-name="ourclientsbyindustry">
@@ -1153,6 +1036,28 @@ Learn How To Swim Program</small></b>
 
 <script>
 jQuery(document).ready(function(){
+
+    /**
+     * 
+     * 
+     * Video Testoimonial
+     * 
+     */
+    console.log("DOM READY");
+    jQuery(".video-play").on('click', function(e) {
+        console.log("Clicked PLAY")
+        e.preventDefault(); 
+        var vidWrap = jQuery(this).parent(),
+            iframe = vidWrap.find('.video iframe'),
+            iframeSrc = iframe.attr('src'),
+            iframePlay = iframeSrc += "?autoplay=1";
+        vidWrap.children('.video-thumbnail').fadeOut();
+        vidWrap.children('.video-play').fadeOut();
+        vidWrap.find('.video iframe').attr('src', iframePlay);
+    });
+
+
+
     /*jQuery("#referafriendmodal").modal("toggle");*/
     // var paramsbacktotpSLArrwanim = {
     //     container: document.getElementById('backtotpSLarrwanim'),
@@ -2021,7 +1926,7 @@ animclintlogoArrwanim = lottie.loadAnimation(paramsclintlogoArrwanim);
 					<div class="col-md-8 text-center">
 <div class="footer_holistc_aprch_cls">
 <!-- <h5>A holistic approach to your online experience</h5> -->
-<h5>A holistic approach for your business online</h5>
+<h5>Where Innovation meets Excellence</h5>
     <ul>
         <li>
         <a href="">
@@ -2205,11 +2110,15 @@ var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/www.dgstudio.com\/wp-admin\/
 } 
   </style>
   <script>
-  jQuery(window).on("load", function() {
-    jQuery(".loader").delay(2000).fadeOut("slow");
-    jQuery("#overlayer").delay(2000).fadeOut("slow");
-    console.log('preloader');
-  });
-    </script>
+    jQuery(window).on("load", function() {
+        jQuery(".loader").delay(1000).fadeOut("slow");
+        jQuery("#overlayer").delay(1000).fadeOut("slow");
+        console.log('preloader');
+    });
+</script>
+
+<script>
+</script>
+
 </body>
 </html>

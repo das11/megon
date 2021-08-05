@@ -369,7 +369,7 @@ div#definesec {
     height: 0px;
 }
 .page-template-home .logo-part img {
-    transition: all 0.8s;
+    transition: all 0.2s;
     background: #fff;
     position: relative;
     z-index: 1;
@@ -393,7 +393,7 @@ div#definesec {
     width: 0% !important;
 }
 .logo-part span.span_lne_anim_cls {
-    width: 46% !important;
+    width: 30% !important;
 }
 .holistic-sec .left  {
     overflow: hidden;
@@ -3859,7 +3859,7 @@ span.spn_lst_txt_cls {
     position: relative;
 }
 .site_logo_img_cls h3 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .site_logo_img_cls h3::after {
     content: '';
@@ -6706,7 +6706,7 @@ a.morelink{
         right: 5%;
     }
     .define-sec .animaation_txt_col_cls {
-        max-width: 450px;
+        max-width: 500px;
         right: 0%;
         padding-left: 65px;
     }
@@ -6714,7 +6714,7 @@ a.morelink{
         right: -295px;
     }
     .build_sec_cls .animaation_txt_col_cls{
-        padding-left: 60px;
+        /* padding-left: 60px; */
         top: 25vh;
     }
     .exploresecfeatures .explore-sec .hme_partcle_anitmn_cls h4{
